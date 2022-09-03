@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Rubik:wght@300;400;500;700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Ubuntu:wght@400;700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/********** Navigation Bar**********/
+.navigation-bar {
+  background-color: #0D0D2B;
+}
+.primary-nav a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 1rem;
+}
+.register-btn {
+  background-color: #3671E9;
+  border-radius: 2rem;
+}
+.login-btn::after {
+  content: '';
+  height: 24px;
+  width: 0px;
+  border: 1px solid #F2F2F2;
+  margin: 0 24px;
+}
+.mobile-popup {
+  position: absolute;
+  background-color: #252540;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 99%;
+}
+.mobile-popup .close-btn {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  right: 1.5rem;
+  top: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
