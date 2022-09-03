@@ -46,3 +46,35 @@ body {
   top: 1.5rem;
 }
 
+/******* Banner *********/
+.banner {
+  background-color: #0D0D2B;
+  color: #fff;
+}
+.promo {
+  padding: 2px 8px 2px 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+.promo span {
+  background-color: #fff;
+  color: #0D0D2B;
+}
+.try-btn {
+  background-color: #3671E9;
+}
+.try-btn span svg{
+  background-color: #fff;
+  color: #3671E9;
+  font-size: 1rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+}
+.illustration {
+  height: 95%;
+  width: 100%;
+}
+.banner-details h1 {
+  line-height: 4rem;
+}
+
