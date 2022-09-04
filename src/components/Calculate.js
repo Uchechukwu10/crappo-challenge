@@ -1,13 +1,16 @@
 import React from 'react';
 import { MdKeyboardArrowRight } from 'react-icons/md';
+import bitcoin from '../images/bitcoin.png';
+import ethereum from '../images/ethereum.png';
+import litecoin from '../images/litecoin.png';
 
 const Calculate = () => {
   return (
     <section className='calculate'>
-      <div className='calculate-title flex flex-col justify-center items-center pt-10 pb-48 relative'>
+      <div className='calculate-title flex flex-col justify-center items-center pt-10 pb-48 relative md:px-11 lg:px-32'>
         <h3 className='text-4xl font-bold py-4 text-center w-6/12'>Check how much you can earn</h3>
         <p className='text-base text-center text-gray-400 px-28 py-4  w-6/12'>Let's check your hash rate to see how much you will earn today, Exercitation veniam consequat sunt nostrud amet.</p>
-        <form className='flex items-center hash-form py-5 absolute w-8/12 rounded-t-xl'>
+        <form className='flex items-center hash-form py-5 absolute w-8/12 rounded-t-xl px-3'>
           <input type='text' placeholder='Enter your hash rate' className='w-6/12'/>
           <select type='text' placeholder='Enter your hash rate' className='w-3/12'>
             <option value='TH/s'>TH/s</option>
@@ -19,31 +22,31 @@ const Calculate = () => {
           <button type='submit' className='try-btn w-2/12 py-3 px-3 mx-3 my-5 rounded-3xl'>Learn More</button>
         </form>
       </div>
-      <div className='trader flex flex flex-col justify-center items-center relative pb-10 pt-48'>
-        <div className='revenue py-4 px-3 absolute w-8/12 rounded-b-xl'>
+      <div className='trader flex flex flex-col justify-center items-center relative pb-10 pt-48 md:px-11 lg:px-32'>
+        <div className='revenue py-4 px-6 absolute w-8/12 rounded-b-xl'>
           <p className='blue-head text-base font-medium'>ESTIMATED 24 HOUR REVENUE:</p>
           <h3 className='text-3xl font-bold py-3'>0.055 130 59 ETH <span className='blue-head'>($1275)</span></h3>
           <p className='text-base text-gray-400 py-2'>Revenue will change based on mining difficulty and Ethereum price.</p>
         </div>
-        <h3>Trade securely and market the high growth cryptocurrencies.</h3>
+        <h3 className='text-4xl font-bold py-8 my-5 w-7/12 text-center'>Trade securely and market the high growth cryptocurrencies.</h3>
         <div className='currencies flex'>
-          <div className='flex flex-col'>
-            <img src='' alt='bitcoin-logo'/>
-            <span className='flex'><h3>Ethereum</h3><p>ETH</p></span>
-            <p>Blockchain technology to create and run decentralized digital applications.</p>
-            <div className='try-btn w-fit p-3 my-5 rounded-3xl'>Try for FREE <span className='mx-3'><MdKeyboardArrowRight className='inline'/></span></div>
+          <div className='flex flex-col justify-center items-center bitcoin mx-6 crypto-card px-4 w-4/12'>
+            <img src={bitcoin} alt='bitcoin-logo' className='pt-8 pb-5 mt-4'/>
+            <span className='flex py-4'><h3 className='text-3xl font-bold mr-2'>Bitcoin</h3><p className='flex items-center text-base text-gray-400'>BTC</p></span>
+            <p className='text-center py-3'>Digital currency in which a record of transactions is maintained.</p>
+            <div className='btn w-fit p-3 my-5 rounded-3xl text-white mb-16'>Start Mining <span className='mx-3'><MdKeyboardArrowRight className='inline'/></span></div>
           </div>
-          <div className='flex flex-col'>
-            <img src='' alt='bitcoin-logo'/>
-            <span className='flex'><h3>Ethereum</h3><p>ETH</p></span>
-            <p>Blockchain technology to create and run decentralized digital applications.</p>
-            <div className='try-btn w-fit p-3 my-5 rounded-3xl'>Try for FREE <span className='mx-3'><MdKeyboardArrowRight className='inline'/></span></div>
+          <div className='flex flex-col ethereum mx-6 crypto-card justify-center items-center px-4 w-4/12'>
+            <img src={ethereum} alt='ethereum-logo' className='pt-8 pb-5 mt-4'/>
+            <span className='flex py-4'><h3 className='text-3xl font-bold mr-2'>Ethereum</h3><p className='flex items-center text-base text-gray-400'>ETH</p></span>
+            <p className='text-center py-3'>Blockchain technology to create and run decentralized digital applications.</p>
+            <div className='arrow w-fit p-3 my-5 mb-16'><MdKeyboardArrowRight className='inline text-5xl'/></div>
           </div>
-          <div className='flex flex-col'>
-            <img src='' alt='bitcoin-logo'/>
-            <span className='flex'><h3>Ethereum</h3><p>ETH</p></span>
-            <p>Blockchain technology to create and run decentralized digital applications.</p>
-            <div className='try-btn w-fit p-3 my-5 rounded-3xl'>Try for FREE <span className='mx-3'><MdKeyboardArrowRight className='inline'/></span></div>
+          <div className='flex flex-col litecoin mx-6 crypto-card justify-center items-center px-4 w-4/12'>
+            <img src={litecoin} alt='litecoin-logo' className='pt-8 pb-5 mt-4'/>
+            <span className='flex py-4'><h3 className='text-3xl font-bold mr-2'>Litecoin</h3><p className='flex items-center text-base text-gray-400'>ETH</p></span>
+            <p className='text-center py-3'>Blockchain technology to create and run decentralized digital applications.</p>
+            <div className='arrow w-fit p-3 my-5 mb-16'><MdKeyboardArrowRight className='inline'/></div>
           </div>
         </div>
       </div>

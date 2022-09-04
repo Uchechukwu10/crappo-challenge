@@ -64,7 +64,7 @@ body {
   background-color: #3671E9;
   color: #0D0D2B;
 }
-.try-btn span svg{
+.try-btn span svg, .btn svg{
   background-color: #fff;
   color: #3671E9;
   font-size: 1rem;
@@ -170,4 +170,34 @@ input::placeholder {
 }
 .blue-head {
   color: #3671E9;
+}
+.bitcoin {
+  background: #2B076E;
+}
+.bitcoin {
+  border-radius: 12px;
+  color: #FFFFFF;
+}
+.ethereum, .litecoin {
+  border-radius: 12px;
+  color: #0D0D2B;
+}
+.arrow {
+  background-color: #fff;
+  color: #3671E9;
+  border-radius: 50%;
+  border: 2px solid rgba(43, 7, 110, 0.2);
+}
+.arrow svg{
+  color: #3671E9;
+  font-size: 1rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+}
+.crypto-card img {
+  width: 50px;
+}
+.btn {
+  background-color: #3671E9;;
 }
