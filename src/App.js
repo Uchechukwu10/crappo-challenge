@@ -12,6 +12,7 @@ function App() {
     <div className="">
       <NavBar />
       <Banner />
+      <div className='absolute ruler1'>hi</div>
       <WhyCrappo />
       <Calculate />
       <Features />

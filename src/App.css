@@ -50,6 +50,7 @@ body {
 .banner {
   background-color: #0D0D2B;
   color: #fff;
+  z-index: -1;
 }
 .promo {
   padding: 2px 8px 2px 0;
@@ -61,6 +62,7 @@ body {
 }
 .try-btn {
   background-color: #3671E9;
+  color: #0D0D2B;
 }
 .try-btn span svg{
   background-color: #fff;
@@ -77,4 +79,95 @@ body {
 .banner-details h1 {
   line-height: 4rem;
 }
+.ruler1 {
+  width: 100px;
+  height: 1000.26px;
+  top: 150px;
+  left: 750px;
+  background: linear-gradient(180.09deg, rgba(255, 255, 255, 0) 0.49%, rgba(255, 255, 255, 0.04) 39.06%, rgba(255, 255, 255, 0) 99.92%);
+  transform: rotate(-120deg);
+  color: transparent;
+  z-index: 10 !important;
+}
+.ruler2 {
+  width: 100px;
+  height: 700px;
+  right: 300px;
+  top: 200px;
+  background: linear-gradient(180.09deg, rgba(255, 255, 255, 0) 0.49%, rgba(255, 255, 255, 0.04) 39.06%, rgba(255, 255, 255, 0) 99.92%);
+  transform: rotate(-120deg);
+}
 
+
+/********* Why Crappo ********/
+.figure-icon {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.why-crappo {
+  background-color: #0D0D2B;
+  color: #FFFFFF;
+  z-index: 2;
+}
+.d-curve {
+  right: 0;
+  top: 100px;
+  width: 260px;
+}
+.u-curve {
+  right: 0;
+  bottom: 200px;
+  width: 240px;
+}
+.ruler3 {
+  background: linear-gradient(180.09deg, rgba(255, 255, 255, 0) 0.49%, rgba(255, 255, 255, 0.04) 39.06%, rgba(255, 255, 255, 0) 99.92%);
+  width: 100px;
+  height: 700px;
+  left: 0;
+  top: 300px;
+  transform: rotate(-120deg);
+}
+
+/*********** Calculate ***********/
+.calculate-title {
+  background-color: #0D0D2B;
+  color: #FFFFFF;
+}
+.revenue {
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 50px;
+  margin: 0 auto;
+  top: 0;
+}
+.trader {
+  background-color: #FFFFFF;
+}
+.hash-form {
+  background-color: #FBFCFE;
+  bottom: 0;
+}
+.hash-form input, .hash-form select{
+  border-width: 0 0 1.2px 0;
+  border-color: #E0E0E0;
+  height: 50px;
+  margin: 10px 20px;
+  background-color: #FBFCFE;
+  padding: 0 10px;
+  color: #0D0D2B;
+}
+input:focus, select:focus {
+  outline: none;
+}
+input::placeholder {
+  color: #0D0D2B;
+}
+.blue-head {
+  color: #3671E9;
+}
