@@ -8,10 +8,10 @@ import dCurve from '../images/D-curve.png';
 
 const WhyCrappo = () => {
   return (
-    <section className="why-crappo md:px-11 lg:px-32 py-20 relative">
-      <div className="figures flex">
-        <div className="figure flex w-4/12">
-          <div className="figure-icon mx-3">
+    <section className="why-crappo md:px-11 lg:px-32 pt-20 pb-7 relative">
+      <div className="figures flex flex-col lg:flex-row justify-center items-center">
+        <div className="figure flex w-8/12 lg:w-4/12 py-6 lg:py-0">
+          <div className="figure-icon lg:mx-3">
             <IoBarChart color="#3671E9" />
           </div>
           <div className="figure-text flex flex-col mx-6">
@@ -19,7 +19,7 @@ const WhyCrappo = () => {
             <p className="text-base text-gray-400">Digital Currencies Exchanged</p>
           </div>
         </div>
-        <div className="figure flex w-4/12">
+        <div className="figure flex w-8/12 lg:w-4/12 py-6 lg:py-0">
           <div className="figure-icon">
             <HiUser color="#3671E9" />
           </div>
@@ -28,7 +28,7 @@ const WhyCrappo = () => {
             <p className="text-base text-gray-400">Trusted Wallet Investors</p>
           </div>
         </div>
-        <div className="figure flex w-4/12">
+        <div className="figure flex w-8/12 lg:w-4/12 py-6 lg:py-0 ">
           <div className="figure-icon">
             <FaGlobeAmericas color="#3671E9" />
           </div>
@@ -38,9 +38,9 @@ const WhyCrappo = () => {
           </div>
         </div>
       </div>
-      <div className="why-us flex justify-center items-center py-32">
+      <div className="why-us flex flex-col lg:flex-row justify-center items-center lg:py-32">
         <div className="why-img px-6"><img src={illustration2} alt='crypto'/></div>
-        <div className="why-text flex flex-col px-20 w-7/12">
+        <div className="why-text flex flex-col px-5 lg:px-20 lg:w-7/12">
           <h3 className="text-4xl font-bold py-4">Why you should choose CRAPPO</h3>
           <p className="text-base text-gray-400 pr-24 py-4">Experience the next generation cryptocurrency platform. No financial borders, extra fees, and fake reviews.</p>
           <div className='try-btn w-fit py-3 px-5 my-5 rounded-3xl'>Learn More</div>

@@ -171,14 +171,7 @@ input::placeholder {
 .blue-head {
   color: #3671E9;
 }
-.bitcoin {
-  background: #2B076E;
-}
-.bitcoin {
-  border-radius: 12px;
-  color: #FFFFFF;
-}
-.ethereum, .litecoin {
+.bitcoin, .ethereum, .litecoin {
   border-radius: 12px;
   color: #0D0D2B;
 }
@@ -200,4 +193,24 @@ input::placeholder {
 }
 .btn {
   background-color: #3671E9;;
+}
+.start-mining {
+  display: none;
+}
+.crypto-card:hover {
+  background: #2B076E;
+  color: #FFFFFF;
+}
+.crypto-card:hover > .start-mining{
+  display: block;
+}
+.crypto-card:hover > .arrow{
+  display: none;
+}
+
+
+@media only screen and (max-width: 1024px){
+  .ruler1, .ruler2, .ruler3, .u-curve, .d-curve  {
+    display: none;
+  }
 }
