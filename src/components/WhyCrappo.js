@@ -5,12 +5,13 @@ import { FaGlobeAmericas } from "react-icons/fa";
 import illustration2 from "../images/Illustration2.png";
 import uCurve from '../images/u-curve.png';
 import dCurve from '../images/D-curve.png';
+import 'animate.css';
 
 const WhyCrappo = () => {
   return (
     <section className="why-crappo md:px-11 lg:px-32 pt-20 pb-7 relative">
       <div className="figures flex flex-col lg:flex-row justify-center items-center">
-        <div className="figure flex w-8/12 lg:w-4/12 py-6 lg:py-0">
+        <div className="figure flex w-8/12 lg:w-4/12 py-6 lg:py-0 animate__animated animate__backInRight animate__slow">
           <div className="figure-icon lg:mx-3">
             <IoBarChart color="#3671E9" />
           </div>
@@ -19,7 +20,7 @@ const WhyCrappo = () => {
             <p className="text-base text-gray-400">Digital Currencies Exchanged</p>
           </div>
         </div>
-        <div className="figure flex w-8/12 lg:w-4/12 py-6 lg:py-0">
+        <div className="figure flex w-8/12 lg:w-4/12 py-6 lg:py-0 animate__animated animate__backInRight animate__slow">
           <div className="figure-icon">
             <HiUser color="#3671E9" />
           </div>
@@ -28,7 +29,7 @@ const WhyCrappo = () => {
             <p className="text-base text-gray-400">Trusted Wallet Investors</p>
           </div>
         </div>
-        <div className="figure flex w-8/12 lg:w-4/12 py-6 lg:py-0 ">
+        <div className="figure flex w-8/12 lg:w-4/12 py-6 lg:py-0 animate__animated animate__backInRight animate__slow">
           <div className="figure-icon">
             <FaGlobeAmericas color="#3671E9" />
           </div>
