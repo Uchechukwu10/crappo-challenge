@@ -5,6 +5,9 @@ body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
 }
+.App {
+  overflow: hidden;
+}
 
 /********** Navigation Bar**********/
 .navigation-bar {
@@ -62,7 +65,7 @@ body {
 }
 .try-btn {
   background-color: #3671E9;
-  color: #0D0D2B;
+  color: #FFFFFF;
 }
 .try-btn span svg, .btn svg{
   background-color: #fff;
@@ -206,6 +209,55 @@ input::placeholder {
 }
 .crypto-card:hover > .arrow{
   display: none;
+}
+
+/*********** Features ************/
+.features {
+  background-color: #2B076E;
+  color: #FFFFFF;
+}
+.mine-form input, .mine-form select{
+  border-width: 0 0 1.2px 0;
+  border-color: #E0E0E0;
+  height: 50px;
+  margin: 10px 20px;
+  padding: 0 10px;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+.mine-form input::placeholder {
+  color: #FFFFFF;
+}
+.mine-btn {
+  background-color: #3671E9;
+  border-radius: 12px;
+  color: #FFFFFF;
+  overflow: hidden;
+} 
+.subscribe-btn {
+  background-color: #FFFFFF;
+  color: #0D0D2B;
+}
+.start-mine {
+  background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+}
+.circle1 {
+  transform: rotate(-150deg);
+  top: -100px;
+  left: 100px;
+}
+.circle2 {
+  bottom: 400px;
+  right: -70px;
+  transform: rotate();
+}
+.eth {
+  top: -10px;
+  left: 50px;
+}
+.btc {
+  bottom: 0;
+  right: 25px;
 }
 
 
