@@ -10,7 +10,7 @@ const Banner = () => {
           <div className='text-base rounded-3xl bg-yellow-400 w-fit h-fit pr-2 promo'><span className='font-medium text-base rounded-3xl bg-red-500 w-fit px-2 py-1 mr-4'>75% SAVE</span>For the Black Friday weekend</div>
           <h1 className='text-5xl lg:text-6xl font-bold my-5 py-3 px-2'>Fastest & secure platform to invest in crypto</h1>
           <p className='text-base w-10/12 lg:w-8/12 my-4'>Buy and sell cryptocurrencies by trusted 10M wallets with over $30 billion in transactions</p>
-          <div className='try-btn w-fit p-3 my-5 rounded-3xl'>Try for FREE <span className='mx-3'><MdKeyboardArrowRight className='inline'/></span></div>
+          <div className='try-btn w-fit py-3 px-3 text-center my-5 rounded-3xl'>Try for FREE <span className='ml-3'><MdKeyboardArrowRight className='inline'/></span></div>
         </div>
         <div className='banner-illustration px-3 lg:w-1/2'><img src={illustration} alt='bitcoin illustration' className='illustration'/></div>
         <div className='absolute ruler2 text-transparent'>hi</div>

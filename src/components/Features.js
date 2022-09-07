@@ -37,7 +37,7 @@ const Features = () => {
             <p className='text-base text-gray-400 py-2 pr-10 lg:w-11/12'>Use advanced analytical tools. Clear TradingView charts let you track current and historical profit investments.</p>
             <button type='submit' className='try-btn w-6/12 lg:w-40 py-3 px-3 my-5 rounded-3xl'>Learn More</button>
           </div>
-          <div className='chart px-10 my-10'>
+          <div className='chart px-4 lg:px-10 my-10'>
             <img src={bitcoinTable} alt='bitcoin table'/>
           </div>
         </div>

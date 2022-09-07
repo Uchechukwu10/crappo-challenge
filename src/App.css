@@ -260,6 +260,21 @@ input::placeholder {
   right: 25px;
 }
 
+/************* Footer ***************/
+.footer {
+  background-color: #0D0D2B;
+  color: #FFFFFF;
+}
+.social-media p {
+  padding: 4px 0;
+}
+.visa-bw, .master-bw, .bitcoin-bw {
+  background: rgb(224, 224, 224, 0.05);
+  border-radius: 8px;
+}
+.accepted-payment img {
+  width: 30px;
+}
 
 @media only screen and (max-width: 1024px){
   .ruler1, .ruler2, .ruler3, .u-curve, .d-curve  {
