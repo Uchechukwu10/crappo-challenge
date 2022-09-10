@@ -29,7 +29,7 @@ const Calculate = () => {
           <p className='text-base text-gray-400 py-2'>Revenue will change based on mining difficulty and Ethereum price.</p>
         </div>
         <h3 className='text-2xl lg:text-4xl font-bold py-8 my-5 w-10/12 text-center'>Trade securely and market the high growth cryptocurrencies.</h3>
-        <div className='currencies flex flex-col lg:flex-row justify-center'>
+        <div className='currencies flex flex-col lg:flex-row justify-center items-center'>
           <div className='flex flex-col justify-center items-center bitcoin lg:mx-6 crypto-card px-4 w-8/12 md:w-9/12 lg:w-3/12'>
             <img src={bitcoin} alt='bitcoin-logo' className='pt-8 pb-5 mt-4'/>
             <span className='flex py-4'><h3 className='text-3xl font-bold mr-2'>Bitcoin</h3><p className='flex items-center text-base text-gray-400'>BTC</p></span>

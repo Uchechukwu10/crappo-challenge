@@ -13,7 +13,7 @@ const WhyCrappo = () => {
     <section className="why-crappo md:px-11 lg:px-11 xl:px-32 pt-20 pb-7 relative">
       <TrackVisibility partialVisibility>
       {({isVisible}) =>
-      <div className="figures flex flex-col lg:flex-row justify-center ">
+      <div className="figures flex flex-col lg:flex-row justify-center items-center lg:items-start">
         <div className={isVisible ? "figure flex w-8/12 lg:w-4/12 py-6 lg:py-0 animate__animated animate__pulse animate__slow" : 'invisible figure flex w-8/12 lg:w-4/12 py-6 lg:py-0'}>
           <div className="figure-icon">
             <IoBarChart color="#3671E9" />
