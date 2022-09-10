@@ -8,6 +8,9 @@ body {
 .App {
   overflow: hidden;
 }
+div, section {
+  overflow: hidden;
+}
 
 /********** Navigation Bar**********/
 .navigation-bar {
@@ -106,7 +109,8 @@ body {
 .figure-icon {
   display: flex;
   background-color: rgba(255, 255, 255, 0.1);
-  width: 70px;
+  width: 70px !important;
+  min-width: 70px;
   height: 70px;
   font-size: 40px;
   justify-content: center;
@@ -209,6 +213,9 @@ input::placeholder {
 }
 .crypto-card:hover > .arrow{
   display: none;
+}
+.currency-text {
+  height: 120px;
 }
 
 /*********** Features ************/

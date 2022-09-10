@@ -6,7 +6,7 @@ const NavBar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <section className="navigation-bar md:px-11 lg:px-32">
+    <section className="navigation-bar md:px-11 lg:px-11 xl:px-32">
       <nav className="">
         <div className="mx-auto px-4 md:py-4 lg:py-10">
           <div className="flex justify-between">

@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App relative">
       <NavBar />
       <Banner />
       <div className='absolute ruler1'>hi</div>

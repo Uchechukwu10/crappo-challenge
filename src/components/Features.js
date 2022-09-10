@@ -10,11 +10,11 @@ const Features = () => {
   return (
     <section className='relative'>
       <div className='flex features flex-col px-5 lg:px-16 py-8 lg:py-20'>
-        <h2 className='text-3xl lg:text-4xl py-5 lg:py-16 lg:mx-96 font-bold text-center'>Market sentiments, portfolio, and run the infrastructure of your choice</h2>
+        <h2 className='text-3xl lg:text-4xl py-5 lg:py-16 lg:mx-24 xl:mx-84 xl:px-10 font-bold text-center'>Market sentiments, portfolio, and run the infrastructure of your choice</h2>
         <div className='flex invest-smart flex-col lg:flex-row'>
-          <div className='flex flex-col invest-text my-10 lg:pt-20 px-10 lg:w-5/12'>
+          <div className='flex flex-col invest-text my-10 xl:pt-20 px-10 lg:w-5/12'>
             <h2 className='text-2xl lg:text-3xl font-bold py-3'>Invest Smart</h2>
-            <p className='text-base text-gray-400 py-2 pr-10 lg:w-11/12'>Get full statistic information about the behaviour of buyers and sellers will help you to make the decision. </p>
+            <p className='text-base text-gray-400 py-2 xl:pr-10 lg:w-11/12'>Get full statistic information about the behaviour of buyers and sellers will help you to make the decision. </p>
             <button type='submit' className='try-btn w-6/12 lg:w-40 py-3 px-3 my-5 rounded-3xl'>Learn More</button>
           </div>
           <div className='chart px-10 my-10'>
@@ -22,9 +22,9 @@ const Features = () => {
           </div>
         </div>
         <div className='flex invest-smart flex-col lg:flex-row-reverse'>
-          <div className='flex flex-col invest-text my-10 lg:pt-20 px-10 lg:w-5/12'>
+          <div className='flex flex-col invest-text my-10 xl:pt-20 px-10 lg:w-5/12'>
             <h2 className='text-2xl lg:text-3xl font-bold py-3'>Detailed Statistics</h2>
-            <p className='text-base text-gray-400 py-2 pr-10 lg:w-11/12'>View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.</p>
+            <p className='text-base text-gray-400 py-2 xl:pr-10 lg:w-11/12'>View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.</p>
             <button type='submit' className='try-btn w-6/12 lg:w-40 py-3 px-3 my-5 rounded-3xl'>Learn More</button>
           </div>
           <div className='chart px-10 my-10  relative lg:right-32'>
@@ -32,12 +32,12 @@ const Features = () => {
           </div>
         </div>
         <div className='flex invest-smart flex-col lg:flex-row'>
-          <div className='flex flex-col invest-text my-10 lg:pt-20 px-10 lg:w-5/12'>
+          <div className='flex flex-col invest-text my-10 xl:pt-20 px-10 lg:w-7/12'>
             <h2 className='text-2xl lg:text-3xl font-bold py-3'>Grow your profit and track your investments</h2>
-            <p className='text-base text-gray-400 py-2 pr-10 lg:w-11/12'>Use advanced analytical tools. Clear TradingView charts let you track current and historical profit investments.</p>
+            <p className='text-base text-gray-400 py-2 xl:pr-10 lg:w-11/12'>Use advanced analytical tools. Clear TradingView charts let you track current and historical profit investments.</p>
             <button type='submit' className='try-btn w-6/12 lg:w-40 py-3 px-3 my-5 rounded-3xl'>Learn More</button>
           </div>
-          <div className='chart px-4 lg:px-10 my-10'>
+          <div className='chart px-4 lg:px-5 my-10 lg:pt-10'>
             <img src={bitcoinTable} alt='bitcoin table'/>
           </div>
         </div>
