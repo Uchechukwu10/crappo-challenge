@@ -67,7 +67,7 @@ const Features = () => {
           <div className='relative mine-btn flex flex-col lg:flex-row justify-center items-center py-10 px-1 mx-8 lg:mx-28'>
             <div className='mine-text lg:w-5/12'>
               <h2 className='text-2xl lg:text-3xl font-bold py-3 text-center lg:text-left'>Start mining now</h2>
-              <p className='text-base py-5 lg:py-2 pr-10 lg:w-11/12 text-center lg:text-left'>Join now with CRAPPO to get the latest news and start mining now</p>
+              <p className='text-base py-5 lg:py-2 lg:pr-10 lg:w-11/12 text-center lg:text-left'>Join now with CRAPPO to get the latest news and start mining now</p>
             </div>
             <form className='flex flex-col lg:flex-row items-center mine-form lg:w-6/12'>
               <input type='text' placeholder='Enter your email' className='w-10/12 lg:w-9/12 relative lg:bottom-3'/>

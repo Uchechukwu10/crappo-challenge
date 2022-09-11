@@ -12,7 +12,7 @@ const Calculate = () => {
       <div className='calculate-title flex flex-col justify-center items-center pt-5 lg:pt-10 pb-80 lg:pb-48 relative md:px-11 lg:px-11 xl:px-32'>
       <TrackVisibility partialVisibility className='py-4 w-10/12 lg:w-8/12 xl:w-6/12'>
       {({ isVisible }) =>
-        <h3 className={ isVisible ? 'text-4xl font-bold text-center animate__animated animate__tada animate__slow' : 'invisible text-4xl font-bold text-center'}>Check how much you can earn</h3>}
+        <h3 className={ isVisible ? 'text-4xl font-bold text-center animate__animated animate__shakeX' : 'invisible text-4xl font-bold text-center'}>Check how much you can earn</h3>}
       </TrackVisibility>
         <p className='text-base text-center text-gray-400 lg:px-28 py-4 w-10/12  lg:w-8/12 xl:w-6/12'>Let's check your hash rate to see how much you will earn today, Exercitation veniam consequat sunt nostrud amet.</p>
         <form className='flex flex-col lg:flex-row items-center hash-form py-5 absolute w-8/12 rounded-t-xl px-3'>
@@ -35,9 +35,9 @@ const Calculate = () => {
         </div>
         <h3 className='text-2xl lg:text-4xl font-bold py-8 my-5 w-10/12 text-center'>Trade securely and market the high growth cryptocurrencies.</h3>
         <div className='currencies flex flex-col lg:flex-row justify-center items-center'>
-        <TrackVisibility partialVisibility className='lg:mx-6 crypto-card px-4 w-8/12 md:w-9/12 lg:w-3/12'>
+        <TrackVisibility partialVisibility className='lg:mx-6 px-4 w-8/12 md:w-9/12 lg:w-3/12 crypto-card bitcoin'>
         {({ isVisible }) =>
-          <div className={isVisible ? 'flex flex-col justify-center items-center bitcoin animate__animated animate__bounceInUp animate__slow' : 'invisible flex flex-col justify-center items-center bitcoin'}>
+          <div className={isVisible ? 'flex flex-col justify-center items-center animate__animated animate__bounceInUp animate__slow' : 'invisible flex flex-col justify-center items-center bitcoin'}>
             <img src={bitcoin} alt='bitcoin-logo' className='pt-8 pb-5 mt-4'/>
             <span className='flex py-4'><h3 className='text-3xl font-bold mr-2'>Bitcoin</h3><p className='flex items-center text-base text-gray-400'>BTC</p></span>
             <p className='currency-text text-center py-3'>Digital currency in which a record of transactions is maintained.</p>
@@ -45,9 +45,9 @@ const Calculate = () => {
             <div className='arrow w-fit p-3 my-5 mb-16'><MdKeyboardArrowRight className='inline text-5xl'/></div>
           </div>}
         </TrackVisibility>
-        <TrackVisibility partialVisibility className='mx-6 crypto-card px-4 w-8/12 md:w-9/12 lg:w-3/12'>
+        <TrackVisibility partialVisibility className='mx-6 px-4 w-8/12 md:w-9/12 lg:w-3/12 ethereum crypto-card j'>
         {({ isVisible }) =>
-        <div className={isVisible ? 'flex flex-col ethereum justify-center items-center animate__animated animate__bounceInUp animate__slow' : 'invisible flex flex-col ethereum justify-center items-center'}>
+        <div className={isVisible ? 'flex flex-col ustify-center items-center animate__animated animate__bounceInUp animate__slow' : 'invisible flex flex-col ethereum justify-center items-center'}>
             <img src={ethereum} alt='ethereum-logo' className='pt-8 pb-5 mt-4'/>
             <span className='flex py-4'><h3 className='text-3xl font-bold mr-2'>Ethereum</h3><p className='flex items-center text-base text-gray-400'>ETH</p></span>
             <p className='currency-text text-center py-3'>Blockchain technology to create and run decentralized digital applications.</p>
@@ -55,9 +55,9 @@ const Calculate = () => {
             <div className='arrow w-fit p-3 my-5 mb-16'><MdKeyboardArrowRight className='inline text-5xl'/></div>
           </div>}
         </TrackVisibility>
-        <TrackVisibility partialVisibility className='mx-6 crypto-card px-4 w-8/12 md:w-9/12 lg:w-3/12'>
+        <TrackVisibility partialVisibility className='mx-6 px-4 w-8/12 md:w-9/12 lg:w-3/12 crypto-card litecoin'>
         {({ isVisible }) =>
-          <div className={isVisible ? 'flex flex-col litecoin justify-center items-center animate__animated animate__bounceInUp animate__slow' : 'invisible flex flex-col litecoin  justify-center items-center '}>
+          <div className={isVisible ? 'flex flex-col justify-center items-center animate__animated animate__bounceInUp animate__slow' : 'invisible flex flex-col litecoin  justify-center items-center '}>
             <img src={litecoin} alt='litecoin-logo' className='pt-8 pb-5 mt-4'/>
             <span className='flex py-4'><h3 className='text-3xl font-bold mr-2'>Litecoin</h3><p className='flex items-center text-base text-gray-400'>ETH</p></span>
             <p className='currency-text text-center py-3'>Cryptocurrency that enables instant payments to anyone in the world.</p>
