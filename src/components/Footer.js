@@ -27,7 +27,7 @@ const Footer = () => {
           <p>Interest</p>
         </div>
         <div className='xl:basis-4/12 lg:basis-full justify-center flex flex-col'>
-          <h3 className='font-medium text-3xl py-4 px-4 text-center'>We accept following payment systems</h3>
+          <h3 className='font-medium text-xl lg:text-3xl py-4 px-4 text-center'>We accept the following payment systems</h3>
           <div className='accepted-payment flex flex-row mt-8 justify-center'>
             <div className='visa-bw py-2 flex justify-center bg-white mx-4 w-24'><img src={visaBw} alt='bitcoin' /></div>
             <div className='master-bw py-2 flex justify-center px-3 bg-white mx-4 w-24'><img src={masterCard} alt='bitcoin' /></div>
@@ -35,14 +35,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='copyright flex lg:justify-between pt-24 flex-col-reverse lg:flex-row'>
+      <div className='copyright flex lg:justify-between pt-24 pb-10 flex-col-reverse lg:flex-row'>
         <p className='text-center mt-4 relative top-8 lg:top-0'> &copy; 2021 CRAPPO. All rights reserved.</p>
-        <div className='socials flex items-end'>
-          <FaFacebookF className='text-xl mx-5'/>
-          <FaInstagram className='text-xl mx-5'/>
-          <FaYoutube className='text-xl mx-5'/>
-          <FaTwitter className='text-xl mx-5'/>
-          <FaLinkedin className='text-xl mx-5'/>
+        <div className='socials flex lg:items-end justify-center'>
+          <FaFacebookF className='text-2xl lg:text-xl mx-3 lg:mx-5'/>
+          <FaInstagram className='text-2xl lg:text-xl mx-3 lg:mx-5'/>
+          <FaYoutube className='text-2xl lg:text-xl mx-3 lg:mx-5'/>
+          <FaTwitter className='text-2xl lg:text-xl mx-3 lg:mx-5'/>
+          <FaLinkedin className='text-2xl lg:text-xl mx-3 lg:mx-5'/>
         </div>
       </div>
     </section>
