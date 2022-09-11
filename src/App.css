@@ -181,6 +181,12 @@ input::placeholder {
 .bitcoin, .ethereum, .litecoin {
   border-radius: 12px;
   color: #0D0D2B;
+} 
+.ethereum {
+  animation-delay: 0.5s;
+}
+.litecoin {
+  animation-delay: 1s;
 }
 .arrow {
   background-color: #fff;
@@ -287,4 +293,7 @@ input::placeholder {
   .ruler1, .ruler2, .ruler3, .u-curve, .d-curve  {
     display: none;
   }
+  .bitcoin, .ethereum, .litecoin {
+    animation-delay: 0s;
+  } 
 }
