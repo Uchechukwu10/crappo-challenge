@@ -11,9 +11,9 @@ import TrackVisibility from "react-on-screen";
 const WhyCrappo = () => {
   return (
     <section className="why-crappo md:px-11 lg:px-11 xl:px-32 pt-20 pb-7 relative">
+      <div className="figures flex flex-col lg:flex-row justify-center items-center lg:items-start">
       <TrackVisibility partialVisibility>
       {({isVisible}) =>
-      <div className="figures flex flex-col lg:flex-row justify-center items-center lg:items-start">
         <div className={isVisible ? "figure flex w-8/12 lg:w-4/12 py-6 lg:py-0 animate__animated animate__pulse animate__slow" : 'invisible figure flex w-8/12 lg:w-4/12 py-6 lg:py-0'}>
           <div className="figure-icon">
             <IoBarChart color="#3671E9" />
@@ -22,8 +22,11 @@ const WhyCrappo = () => {
             <h3 className="text-4xl font-bold">$30B</h3>
             <p className="text-base text-gray-400">Digital Currencies Exchanged</p>
           </div>
-        </div>
-        <div className={isVisible ? "figure flex w-8/12 lg:w-4/12 py-6 lg:py-0 animate__animated animate__pulse animate__slow" : 'invisible figure flex w-8/12 lg:w-4/12 py-6 lg:py-0'}>
+        </div>}
+      </TrackVisibility>
+      <TrackVisibility partialVisibility>
+      {({isVisible}) =>
+      <div className={isVisible ? "figure flex w-8/12 lg:w-4/12 py-6 lg:py-0 animate__animated animate__pulse animate__slow" : 'invisible figure flex w-8/12 lg:w-4/12 py-6 lg:py-0'}>
           <div className="figure-icon">
             <HiUser color="#3671E9" />
           </div>
@@ -31,8 +34,11 @@ const WhyCrappo = () => {
             <h3 className="text-4xl font-bold">10M+</h3>
             <p className="text-base text-gray-400">Trusted Wallet Investors</p>
           </div>
-        </div>
-        <div className={isVisible ? "figure flex w-8/12 lg:w-4/12 py-6 lg:py-0 animate__animated animate__pulse animate__slow" : 'invisible figure flex w-8/12 lg:w-4/12 py-6 lg:py-0'}>
+        </div>}
+      </TrackVisibility>
+      <TrackVisibility partialVisibility>
+      {({isVisible}) =>
+      <div className={isVisible ? "figure flex w-8/12 lg:w-4/12 py-6 lg:py-0 animate__animated animate__pulse animate__slow" : 'invisible figure flex w-8/12 lg:w-4/12 py-6 lg:py-0'}>
           <div className="figure-icon">
             <FaGlobeAmericas color="#3671E9" />
           </div>
@@ -40,9 +46,9 @@ const WhyCrappo = () => {
             <h3 className="text-4xl font-bold">195</h3>
             <p className="text-base text-gray-400">Countries Supported</p>
           </div>
-        </div>
-      </div>}
+        </div>}
       </TrackVisibility>
+      </div>
       <TrackVisibility partialVisibility>
       {({ isVisible }) =>
       <div className="why-us flex flex-col lg:flex-row justify-center items-center lg:py-32">
